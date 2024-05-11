@@ -277,7 +277,7 @@ public class LocationViewAdapter extends RecyclerView.Adapter<LocationViewHolder
 
         FirebaseFirestore.getInstance().collection("reservations").add(reservation).addOnCompleteListener(task2 -> {
             if(task2.isSuccessful()){
-                new AlertDialog.Builder(context).setTitle("Info").setMessage("Foglalási kérelem leadása sikerült!").show().setOnCancelListener(new DialogInterface.OnCancelListener() {
+                new AlertDialog.Builder(context).setTitle("Info").setMessage("Foglalási kérelem leadása sikeres!").show().setOnCancelListener(new DialogInterface.OnCancelListener() {
                     @Override
                     public void onCancel(DialogInterface dialog) {
                         Intent intent = new Intent(context,MainActivity.class);
