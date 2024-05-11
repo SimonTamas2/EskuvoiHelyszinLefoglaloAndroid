@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="linen">#A6967B</color>
+    <color name="lightlinen">#ECDCC1</color>
+</resources>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="650dp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+            <Button
+                android:enabled="false"
+                android:visibility="invisible"
+                android:id="@+id/showRequestsButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/foglal_sok"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pontpontpont"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pontpontpont"
+                android:textAlignment="center"
+                android:textColor="#737373"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pontpontpont"
+                android:textAlignment="center"
+                android:textColor="#737373"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/description"
+                android:textAlignment="center"
+                android:overScrollMode="always"
+                android:maxHeight="100dp"
+                android:text="@string/pontpontpont"/>
+
+            <ViewFlipper
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:id="@+id/images"
+                />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ownerName"
+                android:textAlignment="center"
+                android:text="@string/pontpontpont"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ownerPhone"
+                android:textAlignment="center"
+                android:text="@string/pontpontpont"/>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <Button
+                    android:id="@+id/reserveButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="40dp"
+                    android:text="@string/rdekl_d_s" />
+
+                <Button
+                    android:id="@+id/deleteButton"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="55dp"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="@string/t_rl_s"
+                    android:textColor="@color/design_default_color_error"
+                    android:visibility="invisible" />
+
+
+                <Button
+                    android:id="@+id/deleteReservationButton"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="@string/foglal_s_t_rl_se"
+                    android:textColor="@color/design_default_color_error"
+                    android:visibility="invisible" />
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</RelativeLayout>

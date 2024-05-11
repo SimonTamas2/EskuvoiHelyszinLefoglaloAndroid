@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "886226228837",
+    "project_id": "eskuvoi-helyszin",
+    "storage_bucket": "eskuvoi-helyszin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:886226228837:android:f5ba67477267e879ee988c",
+        "android_client_info": {
+          "package_name": "com.example.eskuvoihelyszinlefoglalo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABKlc9q9xFmKzJCVUlq0TrGnsm31zdsPc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
