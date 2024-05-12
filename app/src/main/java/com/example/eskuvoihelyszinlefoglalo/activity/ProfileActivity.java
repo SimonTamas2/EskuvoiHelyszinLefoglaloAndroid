@@ -254,6 +254,8 @@ public class ProfileActivity extends AppCompatActivity {
                             new AlertDialog.Builder(this).setTitle("Hiba").setMessage("Nem lehet ugyanazzal a névvel 2 helyszíned!").show();
                         }
                     });
+            Intent intent = new Intent(this, ProfileActivity.class);
+            startActivity(intent);
         }catch (Exception ignore){};
     }
 
